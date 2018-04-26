@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include layout="@layout/public_xml" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:background="@drawable/zhongjianxian" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <ImageView
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_marginBottom="10dip"
+                android:layout_marginLeft="50dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="15dip"
+                android:src="@drawable/xinmima" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="15dip"
+                android:layout_weight="1"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:id="@+id/zifumima_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#0000"
+                    android:hint="请输入支付密码"
+                    android:inputType="textPassword"
+                    android:singleLine="false"
+                    android:textColor="@color/color_1"
+                    android:textColorHint="@color/color_1"
+                    android:textSize="14dip" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:background="@color/color_1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <ImageView
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_marginBottom="10dip"
+                android:layout_marginLeft="50dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="15dip"
+                android:src="@drawable/querenxinmima" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="15dip"
+                android:layout_weight="1"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:id="@+id/zifumima_shurumima"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#0000"
+                    android:hint="再次输入支付密码"
+                    android:inputType="textPassword"
+                    android:singleLine="false"
+                    android:textColor="@color/color_1"
+                    android:textColorHint="@color/color_1"
+                    android:textSize="14dip" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:background="@color/color_1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <ImageView
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_marginBottom="10dip"
+                android:layout_marginLeft="50dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="15dip"
+                android:src="@drawable/shoujiyanzhengma" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="15dip"
+                android:layout_weight="1"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:id="@+id/zifumima_shoujihao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#0000"
+                    android:hint="输入手机号"
+                    android:textColor="@color/color_1"
+                    android:textColorHint="@color/color_1"
+                    android:textSize="14dip" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/huoquyanzhengma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:layout_marginTop="15dip"
+                android:src="@drawable/huoquyanzhengma" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:background="@color/color_1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <ImageView
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_marginBottom="10dip"
+                android:layout_marginLeft="50dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="15dip"
+                android:src="@drawable/shoujihao" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="15dip"
+                android:layout_weight="1"
+                android:gravity="center_vertical" >
+
+                <EditText
+                    android:id="@+id/zifumima_yanzhengma"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#0000"
+                    android:hint="输入验证码"
+                    android:inputType="textPassword"
+                    android:singleLine="false"
+                    android:textColor="@color/color_1"
+                    android:textColorHint="@color/color_1"
+                    android:textSize="14dip" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:background="@color/color_1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:layout_marginLeft="20dip"
+            android:text="请输入6位数字作为支付密码"
+            android:textColor="@color/color_1" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/zhifumima_querenxiugai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dip"
+        android:src="@drawable/querenshezhi" />
+
+</LinearLayout>

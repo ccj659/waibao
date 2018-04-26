@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_4"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include layout="@layout/public_xml" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dip"
+        android:background="@color/color_10"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="5dip"
+            android:src="@drawable/shimingrenzheng1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="15dip"
+            android:text="姓名"
+            android:textColor="@color/color_7"
+            android:textSize="@dimen/dimen_16" />
+
+        <EditText
+            android:id="@+id/zhenshixingming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dip"
+            android:background="#0000"
+            android:gravity="right"
+            android:hint="输入姓名"
+            android:textColor="@color/color_18"
+            android:textColorHint="@color/color_18"
+            android:textSize="@dimen/dimen_14" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_10"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="5dip"
+            android:src="@drawable/shimingrenzheng2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="15dip"
+            android:text="身份证号"
+            android:textColor="@color/color_7"
+            android:textSize="@dimen/dimen_16" />
+
+        <EditText
+            android:id="@+id/shenfenzhenghao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dip"
+            android:background="#0000"
+            android:gravity="right"
+            android:hint="输入身份证号"
+            android:textColor="@color/color_18"
+            android:textColorHint="@color/color_18"
+            android:textSize="@dimen/dimen_14" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/queren_renzheng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dip"
+        android:layout_marginTop="30dip"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/shimingrenzheng" />
+    </LinearLayout>
+
+</LinearLayout>

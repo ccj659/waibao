@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "27.0.3"
+    compileOptions.encoding = 'gbk'
+    defaultConfig {
+        applicationId "com.example.jinglinzichan"
+        minSdkVersion 19
+        targetSdkVersion 21
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:21.0.3'
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile files('libs/Volley.jar')
+    compile files('libs/glide-3.6.1.jar')
+    compile files('libs/library.jar')
+    compile files('libs/universal-image-loader-1.9.2-SNAPSHOT-with-sources.jar')
+}

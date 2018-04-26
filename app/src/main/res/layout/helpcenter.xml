@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_6"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include layout="@layout/public_xml" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:background="@color/color_10"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/zaixianbangzhu"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="20dip"
+            android:paddingTop="20dip"
+            android:text="在线帮助"
+            android:textColor="@color/color_7"
+            android:textSize="@dimen/dimen_16" />
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="20dip"
+            android:background="@color/color_6" />
+
+        <TextView
+            android:id="@+id/changjianwenti"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="20dip"
+            android:paddingTop="20dip"
+            android:text="常见问题"
+            android:textColor="@color/color_7"
+            android:textSize="@dimen/dimen_16" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/helppcenter_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_10" />
+
+    <LinearLayout
+        android:id="@+id/zaixianbangzhu_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:src="@drawable/zaixianbangzhu1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:text="400-032-3933"
+            android:textColor="@color/color_3"
+            android:textSize="@dimen/dimen_16" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dip"
+            android:text="服务时间"
+            android:textColor="@color/color_5"
+            android:textSize="@dimen/dimen_12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:text="工作日 9:00-17:30"
+            android:textColor="@color/color_5"
+            android:textSize="@dimen/dimen_12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:text="节假日以公告为准"
+            android:textColor="@color/color_5"
+            android:textSize="@dimen/dimen_12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dip"
+            android:layout_marginTop="5dip"
+            android:text="午休时间 11:30-13:30"
+            android:textColor="@color/color_5"
+            android:textSize="@dimen/dimen_12" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:background="@color/color_10"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dip"
+                android:layout_marginTop="20dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="关注微信公众号"
+                    android:textColor="@color/color_7"
+                    android:textSize="@dimen/dimen_14" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:text="京麟资产"
+                    android:textColor="@color/color_3"
+                    android:textSize="@dimen/dimen_14" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/help_icon_gongzhonghao" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dip"
+                android:layout_height="100dip"
+                android:background="@color/color_6" />
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dip"
+                android:layout_marginTop="20dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dip"
+                    android:text="意见反馈"
+                    android:textColor="@color/color_7"
+                    android:textSize="@dimen/dimen_14" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/help_icon_help" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

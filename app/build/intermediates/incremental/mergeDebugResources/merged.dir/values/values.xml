@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000</color>
+    <color name="blue">#315182</color>
+    <color name="color999999">#999999</color>
+    <color name="color_1">#b7b7b7</color>
+    <color name="color_10">#ffffff</color>
+    <color name="color_11">#fffffd</color>
+    <color name="color_12">#9f9f9f</color>
+    <color name="color_13">#5f5f5f</color>
+    <color name="color_14">#878787</color>
+    <color name="color_15">#dadada</color>
+    <color name="color_16">#ffb400</color>
+    <color name="color_17">#a8a8a8</color>
+    <color name="color_18">#8d8d8d</color>
+    <color name="color_19">#d80e00</color>
+    <color name="color_2">#7cb5e0</color>
+    <color name="color_20">#50cfff</color>
+    <color name="color_21">#3faaf5</color>
+    <color name="color_22">#ff750f</color>
+    <color name="color_23">#00b2f1</color>
+    <color name="color_3">#01b1ed</color>
+    <color name="color_4">#ebebeb</color>
+    <color name="color_5">#414141</color>
+    <color name="color_6">#f6f6f6</color>
+    <color name="color_7">#000000</color>
+    <color name="color_8">#383836</color>
+    <color name="color_9">#00000000</color>
+    <color name="line">#eee</color>
+    <color name="theme">#ff0049</color>
+    <color name="theme_black">#bd0036</color>
+    <color name="white">#fff</color>
+    <declare-styleable name="ArcProgressbar"><attr format="integer" name="startAngle"/><attr format="integer" name="radius"/><attr format="integer" name="trokeWidth"/><attr format="color" name="arcColor"/></declare-styleable>
+    <declare-styleable name="RoundProgressBar"><attr format="color" name="roundColor"/><attr format="color" name="roundProgressColor"/><attr format="dimension" name="roundWidth"/><attr format="color" name="textColor"/><attr format="dimension" name="textSize"/><attr format="integer" name="max"/><attr format="boolean" name="textIsDisplayable"/><attr name="style">
+            <enum name="STROKE" value="0"/>
+            <enum name="FILL" value="1"/>
+        </attr></declare-styleable>
+    <declare-styleable name="roundedimageview"><attr format="dimension" name="border_thickness"/><attr format="color" name="border_inside_color"/><attr format="color" name="border_outside_color"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="dimen_10">10dp</dimen>
+    <dimen name="dimen_12">12dp</dimen>
+    <dimen name="dimen_14">14dp</dimen>
+    <dimen name="dimen_15">15dp</dimen>
+    <dimen name="dimen_16">16dp</dimen>
+    <dimen name="dimen_18">18dp</dimen>
+    <dimen name="dimen_20">20dp</dimen>
+    <dimen name="dimen_30">30dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">京麟资产</string>
+    <string name="hello_world">Hello world!</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="CustomCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_style</item>
+    </style>
+    <style name="CustomCheckboxThemex" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_style_</item>
+    </style>
+    <style name="HKDialogLoading" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/color_9</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

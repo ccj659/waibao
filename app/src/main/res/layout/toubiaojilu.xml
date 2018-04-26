@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include layout="@layout/public_xml" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/quanbu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/quanbu_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:text="全部"
+                android:textColor="@color/color_20"
+                android:textSize="@dimen/dimen_16" />
+
+            <View
+                android:id="@+id/quanbu_view"
+                android:layout_width="40dip"
+                android:layout_height="4dip"
+                android:background="@color/color_3"
+                android:orientation="vertical" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/huankuan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/huankuan_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:text="还款中"
+                android:textColor="@color/color_18"
+                android:textSize="16dip" />
+
+            <View
+                android:id="@+id/huankuan_view"
+                android:layout_width="40dip"
+                android:layout_height="4dip"
+                android:background="@color/color_3"
+                android:orientation="vertical"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/yihuanqing"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/yihuanqing_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:text="已还清"
+                android:textColor="@color/color_18"
+                android:textSize="16dip" />
+
+            <View
+                android:id="@+id/yihuanqing_view"
+                android:layout_width="40dip"
+                android:layout_height="4dip"
+                android:background="@color/color_3"
+                android:orientation="vertical"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.example.jinglinzichan.view.PullDownView
+        android:id="@+id/toubiaojilu_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

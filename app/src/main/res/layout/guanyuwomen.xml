@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include layout="@layout/public_xml" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/kefudianhua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+        
+        <TextView
+            android:id="@+id/titles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="10dip"
+            android:text="客服电话4000-161-262"
+            android:textColor="@color/color_1"
+            android:textSize="16dip" />
+
+        <TextView
+            android:id="@+id/keywordss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="5dip"
+            android:text="客服电话4000-161-262"
+            android:textColor="@color/color_1"
+            android:textSize="16dip" />
+
+        <TextView
+            android:id="@+id/addresss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="5dip"
+            android:text="客服电话4000-161-262"
+            android:textColor="@color/color_1"
+            android:textSize="16dip" />
+
+        <TextView
+            android:id="@+id/emails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="5dip"
+            android:text="客服电话4000-161-262"
+            android:textColor="@color/color_1"
+            android:textSize="16dip" />
+
+        <TextView
+            android:id="@+id/tels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="5dip"
+            android:text="客服电话4000-161-262"
+            android:textColor="@color/color_1"
+            android:textSize="16dip" />
+
+    </LinearLayout>
+
+</LinearLayout>
