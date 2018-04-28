@@ -46,7 +46,7 @@ public class XiangQing extends BaseActivity implements OnClickListener,
 
 	private LinearLayout fanhuijain_xiangqing;
 	private RoundProgressBar sink;
-	private ImageView mashangtoubiao_xiangqing;
+	private TextView mashangtoubiao_xiangqing;
 	private String id, load_id;
 	private SharedPreferences mySharedPreferences;
 	private String user_id;
@@ -85,7 +85,7 @@ public class XiangQing extends BaseActivity implements OnClickListener,
 		// 后面图片
 		sink = (RoundProgressBar) findViewById(R.id.sink);
 		// 马上投标
-		mashangtoubiao_xiangqing = (ImageView) findViewById(R.id.mashangtoubiao_xiangqing);
+		mashangtoubiao_xiangqing = (TextView) findViewById(R.id.mashangtoubiao_xiangqing);
 		mashangtoubiao_xiangqing.setOnClickListener(this);
 		// 标题
 		biaoti = (TextView) findViewById(R.id.biaoti);
@@ -204,14 +204,11 @@ public class XiangQing extends BaseActivity implements OnClickListener,
 			break;
 		case R.id.mashangtoubiao_xiangqing:
 			if (deal_status.equals("0")) {
-				mashangtoubiao_xiangqing
-						.setImageResource(R.drawable.home_invest_btn_04);
+
 			} else if (deal_status.equals("5")) {
-				mashangtoubiao_xiangqing
-						.setImageResource(R.drawable.home_invest_btn_04);
+
 			} else if (deal_status.equals("4")) {
-				mashangtoubiao_xiangqing
-						.setImageResource(R.drawable.home_invest_btn_04);
+
 			} else if (deal_status.equals("1")
 					&& Integer.valueOf(remain_time).intValue() > 0) {
 				// 跳转
@@ -219,18 +216,13 @@ public class XiangQing extends BaseActivity implements OnClickListener,
 				intent.putExtra("id", id);
 				startActivity(intent);
 
-				mashangtoubiao_xiangqing
-						.setImageResource(R.drawable.home_invest_btn_04);
 			} else if (deal_status.equals("2")) {
-				mashangtoubiao_xiangqing
-						.setImageResource(R.drawable.home_invest_btn_04);
+
 			} else if (deal_status.equals("3")) {
-				mashangtoubiao_xiangqing
-						.setImageResource(R.drawable.home_invest_btn_04);
+
 			} else if (deal_status.equals("1")
 					&& Integer.valueOf(remain_time).intValue() <= 0) {
-				mashangtoubiao_xiangqing
-						.setImageResource(R.drawable.home_invest_btn_04);
+
 			}
 			break;
 		case R.id.jibenxinxi:
@@ -404,40 +396,31 @@ public class XiangQing extends BaseActivity implements OnClickListener,
 					if (deal_status.equals("0")) {
 						// 状态
 						zhuangtai.setText("状态：申请中");
-						mashangtoubiao_xiangqing
-								.setImageResource(R.drawable.home_invest_btn_04);
+
 					} else if (deal_status.equals("5")) {
 						// 状态
 						zhuangtai.setText("状态：已还清");
-						mashangtoubiao_xiangqing
-								.setImageResource(R.drawable.home_invest_btn_04);
+
 					} else if (deal_status.equals("4")) {
 						// 状态
 						zhuangtai.setText("状态：还款中");
-						mashangtoubiao_xiangqing
-								.setImageResource(R.drawable.home_invest_btn_04);
+
 					} else if (deal_status.equals("1")
 							&& Integer.valueOf(remain_time).intValue() > 0) {
 						// 状态
 						zhuangtai.setText("状态：已开始");
-						mashangtoubiao_xiangqing
-								.setImageResource(R.drawable.home_invest_btn_04);
+
 					} else if (deal_status.equals("2")) {
 						// 状态
 						zhuangtai.setText("状态：已满标");
-						mashangtoubiao_xiangqing
-								.setImageResource(R.drawable.home_invest_btn_04);
+
 					} else if (deal_status.equals("3")) {
 						// 状态
 						zhuangtai.setText("状态：已流标");
-						mashangtoubiao_xiangqing
-								.setImageResource(R.drawable.home_invest_btn_04);
 					} else if (deal_status.equals("1")
 							&& Integer.valueOf(remain_time).intValue() <= 0) {
 						// 状态
 						zhuangtai.setText("状态：已过期");
-						mashangtoubiao_xiangqing
-								.setImageResource(R.drawable.home_invest_btn_04);
 					}
 
 					if (loan_agreement.equals("")) {

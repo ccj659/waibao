@@ -1,7 +1,18 @@
 package com.example.jinglinzichan.activity;
 
-import org.json.JSONException;
-import org.json.JSONObject;
+import android.app.Activity;
+import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.text.method.DialerKeyListener;
+import android.util.Log;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.Window;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.jinglinzichan.R;
 import com.example.jinglinzichan.utils.Constant;
@@ -10,19 +21,8 @@ import com.example.jinglinzichan.view.HkDialogLoading;
 import com.lidroid.xutils.BusinessResponse;
 import com.lidroid.xutils.http.RequestParams;
 
-import android.app.Activity;
-import android.content.SharedPreferences;
-import android.os.Bundle;
-import android.text.method.DialerKeyListener;
-import android.util.Log;
-import android.view.View;
-import android.view.Window;
-import android.view.View.OnClickListener;
-import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.TextView;
-import android.widget.Toast;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 //修改手机
 public class XiuGaiShouJi extends Activity implements OnClickListener,
@@ -31,10 +31,10 @@ public class XiuGaiShouJi extends Activity implements OnClickListener,
 	private LinearLayout return_key;
 	private TextView title;
 	private EditText xiugai_jiushouji;
-	private ImageView xiugai_huoquyanzhengma;
+	private TextView xiugai_huoquyanzhengma;
 	private EditText xiugai_yanzhengma;
 	private EditText xiugai_shoujihao;
-	private ImageView xiugai_xinshouji;
+	private TextView xiugai_xinshouji;
 	private EditText xiugai_xinyanzhengma;
 	private String xiugai_jiushoujis;
 	private String xiugai_shoujihaos;
@@ -61,7 +61,7 @@ public class XiuGaiShouJi extends Activity implements OnClickListener,
 		xiugai_jiushouji = (EditText) findViewById(R.id.xiugai_jiushouji);
 		xiugai_jiushouji.setKeyListener(DialerKeyListener.getInstance());
 		// 获取验证码
-		xiugai_huoquyanzhengma = (ImageView) findViewById(R.id.xiugai_huoquyanzhengma);
+		xiugai_huoquyanzhengma = (TextView) findViewById(R.id.xiugai_huoquyanzhengma);
 		xiugai_huoquyanzhengma.setOnClickListener(this);
 		// 验证码
 		xiugai_yanzhengma = (EditText) findViewById(R.id.xiugai_yanzhengma);
@@ -69,7 +69,7 @@ public class XiuGaiShouJi extends Activity implements OnClickListener,
 		xiugai_shoujihao = (EditText) findViewById(R.id.xiugai_shoujihao);
 		xiugai_shoujihao.setKeyListener(DialerKeyListener.getInstance());
 		// 获取验证码
-		xiugai_xinshouji = (ImageView) findViewById(R.id.xiugai_xinshouji);
+		xiugai_xinshouji = (TextView) findViewById(R.id.xiugai_xinshouji);
 		xiugai_xinshouji.setOnClickListener(this);
 		// 验证码
 		xiugai_xinyanzhengma = (EditText) findViewById(R.id.xiugai_xinyanzhengma);

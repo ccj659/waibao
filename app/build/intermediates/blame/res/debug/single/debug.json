@@ -8,6 +8,10 @@
         "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-xhdpi/queding.png"
     },
     {
+        "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_user_bgimg.png.flat",
+        "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-xhdpi/user_bgimg.png"
+    },
+    {
         "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/layout_quickpayment.xml.flat",
         "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/layout/quickpayment.xml"
     },
@@ -20,8 +24,16 @@
         "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/layout/slideshow.xml"
     },
     {
+        "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable_btn_bg_circle_dark.xml.flat",
+        "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable/btn_bg_circle_dark.xml"
+    },
+    {
         "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_querentoubiaoxx.png.flat",
         "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-xhdpi/querentoubiaoxx.png"
+    },
+    {
+        "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/layout_layout_guid_1.xml.flat",
+        "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/layout/layout_guid_1.xml"
     },
     {
         "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_shimingrenzheng.png.flat",
@@ -54,6 +66,10 @@
     {
         "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_investment_btn01.png.flat",
         "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-xhdpi/investment_btn01.png"
+    },
+    {
+        "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_user_function_icon04.png.flat",
+        "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-xhdpi/user_function_icon04.png"
     },
     {
         "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/layout_personacenter.xml.flat",
@@ -104,6 +120,10 @@
         "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/layout/public_xml.xml"
     },
     {
+        "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_user_function_icon03.png.flat",
+        "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-xhdpi/user_function_icon03.png"
+    },
+    {
         "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_home_nav_icon04.png.flat",
         "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-xhdpi/home_nav_icon04.png"
     },
@@ -124,12 +144,16 @@
         "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-mdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/anim_rotate_repeat.xml.flat",
+        "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/anim/rotate_repeat.xml"
+    },
+    {
         "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_anquanbaozhang4.jpg.flat",
         "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-xhdpi/anquanbaozhang4.jpg"
     },
     {
-        "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/anim_rotate_repeat.xml.flat",
-        "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/anim/rotate_repeat.xml"
+        "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_user_function_icon05.png.flat",
+        "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-xhdpi/user_function_icon05.png"
     },
     {
         "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_jiumima.png.flat",
@@ -152,12 +176,12 @@
         "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-xhdpi/load.png"
     },
     {
-        "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_home_nav_icon01.png.flat",
-        "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-xhdpi/home_nav_icon01.png"
-    },
-    {
         "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_loaninvestment_content.png.flat",
         "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-xhdpi/loaninvestment_content.png"
+    },
+    {
+        "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_home_nav_icon01.png.flat",
+        "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-xhdpi/home_nav_icon01.png"
     },
     {
         "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_home_tab_icon1.png.flat",
@@ -166,6 +190,10 @@
     {
         "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/layout_safetyguarantee.xml.flat",
         "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/layout/safetyguarantee.xml"
+    },
+    {
+        "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable_btn_bg_dark.xml.flat",
+        "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable/btn_bg_dark.xml"
     },
     {
         "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xxhdpi_login_code.png.flat",
@@ -208,8 +236,16 @@
         "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/layout/zhanghuxinxi.xml"
     },
     {
+        "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable_btn_bg_circle.xml.flat",
+        "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable/btn_bg_circle.xml"
+    },
+    {
         "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_mashangtoubiao.png.flat",
         "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-xhdpi/mashangtoubiao.png"
+    },
+    {
+        "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_user_function_icon02.png.flat",
+        "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-xhdpi/user_function_icon02.png"
     },
     {
         "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_xiugaishouji_qietu.png.flat",
@@ -222,6 +258,10 @@
     {
         "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable_edit_num_bg.xml.flat",
         "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable/edit_num_bg.xml"
+    },
+    {
+        "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/layout_layout_guid_2.xml.flat",
+        "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/layout/layout_guid_2.xml"
     },
     {
         "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/layout_notice.xml.flat",
@@ -282,6 +322,10 @@
     {
         "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/layout_tenderdetails.xml.flat",
         "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/layout/tenderdetails.xml"
+    },
+    {
+        "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable_progress_bar.xml.flat",
+        "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable/progress_bar.xml"
     },
     {
         "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_touxiang.png.flat",
@@ -408,6 +452,10 @@
         "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/layout/tixian.xml"
     },
     {
+        "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_user_function_icon09.png.flat",
+        "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-xhdpi/user_function_icon09.png"
+    },
+    {
         "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_kefudianhua.png.flat",
         "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-xhdpi/kefudianhua.png"
     },
@@ -426,6 +474,10 @@
     {
         "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/layout_openanaccount.xml.flat",
         "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/layout/openanaccount.xml"
+    },
+    {
+        "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/layout_layout_guid_3.xml.flat",
+        "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/layout/layout_guid_3.xml"
     },
     {
         "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/layout_guanyuwomen.xml.flat",
@@ -502,6 +554,10 @@
     {
         "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/layout_package_content.xml.flat",
         "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/layout/package_content.xml"
+    },
+    {
+        "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_user_head.png.flat",
+        "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-xhdpi/user_head.png"
     },
     {
         "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_homepage_content.png.flat",
@@ -602,6 +658,10 @@
     {
         "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_xianshangzhifu.png.flat",
         "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-xhdpi/xianshangzhifu.png"
+    },
+    {
+        "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_user_btn1.png.flat",
+        "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-xhdpi/user_btn1.png"
     },
     {
         "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_shimingrenzheng_qietu.png.flat",
@@ -752,6 +812,10 @@
         "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-xhdpi/mychongzhi.png"
     },
     {
+        "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_user_function_icon08.png.flat",
+        "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-xhdpi/user_function_icon08.png"
+    },
+    {
         "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_bindbankcard_4.png.flat",
         "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-xhdpi/bindbankcard_4.png"
     },
@@ -816,6 +880,10 @@
         "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-xhdpi/home_invest_btn_04.png"
     },
     {
+        "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_user_function_icon07.png.flat",
+        "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-xhdpi/user_function_icon07.png"
+    },
+    {
         "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/layout_querentoubiao.xml.flat",
         "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/layout/querentoubiao.xml"
     },
@@ -868,8 +936,16 @@
         "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-xhdpi/loaninvestment.png"
     },
     {
+        "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_user_function_icon06.png.flat",
+        "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-xhdpi/user_function_icon06.png"
+    },
+    {
         "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_xiadiantou.png.flat",
         "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-xhdpi/xiadiantou.png"
+    },
+    {
+        "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/anim_anim_guide_alpha_in.xml.flat",
+        "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/anim/anim_guide_alpha_in.xml"
     },
     {
         "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_xuanzhong.png.flat",
@@ -956,6 +1032,10 @@
         "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-xhdpi/register_choose2_pre.png"
     },
     {
+        "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_user_function_icon01.png.flat",
+        "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-xhdpi/user_function_icon01.png"
+    },
+    {
         "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_zhanghaoguanli.png.flat",
         "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-xhdpi/zhanghaoguanli.png"
     },
@@ -1034,6 +1114,10 @@
     {
         "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/drawable-xhdpi_xuanzhong1.png.flat",
         "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/drawable-xhdpi/xuanzhong1.png"
+    },
+    {
+        "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/layout_activity_guid.xml.flat",
+        "source": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/src/main/res/layout/activity_guid.xml"
     },
     {
         "merged": "/Users/chenchangjun/Desktop/myproject/jinglinzichan/app/build/intermediates/res/merged/debug/layout_xuanxiang_list.xml.flat",

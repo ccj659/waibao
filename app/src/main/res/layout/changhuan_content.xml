@@ -174,7 +174,9 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
 
-        <ImageView
+        <TextView
+            style="@style/BtnTheme"
+            android:text="充值"
             android:id="@+id/chongzhi_huankuan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -183,14 +185,17 @@
             android:layout_weight="1"
             android:src="@drawable/chongzhi" />
 
-        <ImageView
+        <TextView
+            android:layout_marginLeft="10dp"
             android:id="@+id/querenhuankuan_huan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dip"
             android:layout_marginTop="10dip"
             android:layout_weight="1"
-            android:src="@drawable/querenhuankuan" />
+            style="@style/BtnTheme"
+            android:text="确认还款"
+            />
     </LinearLayout>
 
 </LinearLayout>

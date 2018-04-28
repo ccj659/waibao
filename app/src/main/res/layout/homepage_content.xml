@@ -46,7 +46,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="5dip"
                     android:text="8.00%"
-                    android:textColor="@color/color_16"
+                    android:textColor="@color/red"
                     android:textSize="18dip" />
 
                 <TextView
@@ -98,12 +98,13 @@
                 android:background="@drawable/zhongjianxian" />
 
             <TextView
+                style="@style/BtnTheme"
+
                 android:id="@+id/zhuangtai_lan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dip"
                 android:layout_marginRight="20dip"
-                android:background="@drawable/investment_btn01"
                 android:gravity="center"
                 android:text="投标"
                 android:textColor="@color/color_10" />
@@ -113,7 +114,8 @@
             android:id="@+id/progressbar_updown"
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="match_parent"
-            android:layout_height="7dip"
+            android:progressDrawable="@drawable/progress_bar"
+            android:layout_height="5dip"
             android:layout_marginBottom="5dip"
             android:layout_marginLeft="5dip"
             android:layout_marginRight="5dip"

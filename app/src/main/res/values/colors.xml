@@ -2,8 +2,8 @@
 <resources>
 
     <color name="color_1">#b7b7b7</color>
-    <color name="color_2">#7cb5e0</color>
-    <color name="color_3">#01b1ed</color>
+    <color name="color_2">#ff0049</color>
+    <color name="color_3">#ff0049</color>
     <color name="color_4">#ebebeb</color>
     <color name="color_5">#414141</color>
     <color name="color_6">#f6f6f6</color>
@@ -19,16 +19,20 @@
     <color name="color_16">#ffb400</color>
     <color name="color_17">#a8a8a8</color>
     <color name="color_18">#8d8d8d</color>
-    <color name="color_19">#d80e00</color>
-    <color name="color_20">#50cfff</color>
+    <color name="color_19">#ff0049</color>
+    <color name="color_20">#ff0049</color>
     <color name="color999999">#999999</color>
-    <color name="color_21">#3faaf5</color>
+    <color name="color_21">#ff0049</color>
     <color name="color_22">#ff750f</color>
-    <color name="color_23">#00b2f1</color>
+    <color name="color_23">#ff0049</color>
     <color name="white">#fff</color>
     <color name="black">#000</color>
     <color name="theme">#ff0049</color>
     <color name="theme_black">#bd0036</color>
     <color name="line">#eee</color>
-    <color name="blue">#315182</color>
+    <color name="blue">#ff0049</color>
+
+
+    <color name="red">#ff0049</color>
+
 </resources>

@@ -7,7 +7,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#3faaf5"
+        android:background="@color/white"
         android:orientation="horizontal" >
 
         <LinearLayout
@@ -22,7 +22,7 @@
                 android:layout_height="25dip"
                 android:layout_marginLeft="10dip"
                 android:layout_marginRight="10dip"
-                android:src="@drawable/nav_btn_back_def" />
+                android:src="@drawable/back" />
         </LinearLayout>
 
         <LinearLayout
@@ -38,7 +38,7 @@
                 android:layout_marginBottom="10dip"
                 android:layout_marginTop="10dip"
                 android:text="投资详情"
-                android:textColor="#ffffff"
+                android:textColor="@color/black"
                 android:textSize="20sp" />
         </LinearLayout>
 
@@ -58,6 +58,10 @@
         </LinearLayout>
     </LinearLayout>
 
+    <View
+        android:background="@color/red"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"></View>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dip"
@@ -83,15 +87,20 @@
         android:layout_height="wrap_content"
         android:gravity="center" >
 
-        <ImageView
+        <TextView
             android:id="@+id/mashangtoubiao_xiangqing"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:gravity="center"
             android:layout_marginLeft="2dip"
             android:layout_marginRight="2dip"
             android:layout_marginBottom="7dip"
-            android:layout_marginTop="20dip" />
+            android:layout_marginTop="20dip"
+            style="@style/BtnTheme"
+            android:textSize="20dp"
+            android:text="立即投资"
+            />
     </LinearLayout>
 
 </LinearLayout>

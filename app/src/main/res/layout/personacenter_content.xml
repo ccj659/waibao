@@ -24,7 +24,7 @@
                 android:layout_height="30dip"
                 android:layout_marginBottom="7dip"
                 android:layout_marginTop="20dip"
-                android:src="@drawable/changhuandaikuan_qietu" />
+                android:src="@drawable/user_function_icon01" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -51,7 +51,7 @@
                 android:layout_height="30dip"
                 android:layout_marginBottom="7dip"
                 android:layout_marginTop="20dip"
-                android:src="@drawable/changhuandaikuan_qietu1" />
+                android:src="@drawable/user_function_icon02" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -76,7 +76,7 @@
                 android:layout_height="30dip"
                 android:layout_marginBottom="7dip"
                 android:layout_marginTop="20dip"
-                android:src="@drawable/toubiaojilu" />
+                android:src="@drawable/user_function_icon03" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -110,7 +110,7 @@
                 android:layout_height="30dip"
                 android:layout_marginBottom="7dip"
                 android:layout_marginTop="20dip"
-                android:src="@drawable/wodeyinhangka" />
+                android:src="@drawable/user_function_icon04" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -136,7 +136,7 @@
                 android:layout_height="30dip"
                 android:layout_marginBottom="7dip"
                 android:layout_marginTop="20dip"
-                android:src="@drawable/gerenxinxi" />
+                android:src="@drawable/user_function_icon05" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -163,7 +163,7 @@
                 android:layout_height="30dip"
                 android:layout_marginBottom="7dip"
                 android:layout_marginTop="20dip"
-                android:src="@drawable/zhanghaoguanli" />
+                android:src="@drawable/user_function_icon06" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -195,7 +195,7 @@
                 android:layout_height="30dip"
                 android:layout_marginBottom="7dip"
                 android:layout_marginTop="20dip"
-                android:src="@drawable/kaihu" />
+                android:src="@drawable/user_function_icon07" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -222,7 +222,7 @@
                 android:layout_height="30dip"
                 android:layout_marginBottom="7dip"
                 android:layout_marginTop="20dip"
-                android:src="@drawable/pingtaigonggao" />
+                android:src="@drawable/user_function_icon08" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -247,7 +247,7 @@
                 android:layout_height="30dip"
                 android:layout_marginBottom="7dip"
                 android:layout_marginTop="20dip"
-                android:src="@drawable/mimaguanliss" />
+                android:src="@drawable/user_function_icon09" />
 
             <TextView
                 android:layout_width="wrap_content"

@@ -1,15 +1,5 @@
 package com.example.jinglinzichan.adapter;
 
-import java.util.List;
-import java.util.Map;
-
-import com.example.jinglinzichan.R;
-import com.nostra13.universalimageloader.cache.memory.impl.WeakMemoryCache;
-import com.nostra13.universalimageloader.core.DisplayImageOptions;
-import com.nostra13.universalimageloader.core.ImageLoader;
-import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
-import com.nostra13.universalimageloader.core.assist.ImageScaleType;
-
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -19,6 +9,16 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+
+import com.example.jinglinzichan.R;
+import com.nostra13.universalimageloader.cache.memory.impl.WeakMemoryCache;
+import com.nostra13.universalimageloader.core.DisplayImageOptions;
+import com.nostra13.universalimageloader.core.ImageLoader;
+import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
+import com.nostra13.universalimageloader.core.assist.ImageScaleType;
+
+import java.util.List;
+import java.util.Map;
 
 @SuppressLint("InflateParams")
 public class TouBiaoAdapter extends BaseAdapter {
@@ -140,33 +140,33 @@ public class TouBiaoAdapter extends BaseAdapter {
 		if (deal_status.equals("0")) {
 			viewHolder.zhuangtai_lan.setText("申请中");
 			viewHolder.zhuangtai_lan
-					.setBackgroundResource(R.drawable.investment_btn01);
+					.setBackgroundResource(R.drawable.btn_bg_circle);
 		} else if (deal_status.equals("5")) {
 			viewHolder.zhuangtai_lan.setText("已还清");
 			viewHolder.zhuangtai_lan
-					.setBackgroundResource(R.drawable.investment_btn02);
+					.setBackgroundResource(R.drawable.btn_bg_circle_dark);
 		} else if (deal_status.equals("4")) {
 			viewHolder.zhuangtai_lan.setText("还款中");
 			viewHolder.zhuangtai_lan
-					.setBackgroundResource(R.drawable.investment_btn02);
+					.setBackgroundResource(R.drawable.btn_bg_circle_dark);
 		} else if (deal_status.equals("1")
 				&& Integer.valueOf(remain_time).intValue() > 0) {
-			viewHolder.zhuangtai_lan.setText("投资");
+			viewHolder.zhuangtai_lan.setText(" 投资 ");
 			viewHolder.zhuangtai_lan
-					.setBackgroundResource(R.drawable.investment_btn01);
+					.setBackgroundResource(R.drawable.btn_bg_circle);
 		} else if (deal_status.equals("2")) {
 			viewHolder.zhuangtai_lan.setText("已满标");
 			viewHolder.zhuangtai_lan
-					.setBackgroundResource(R.drawable.investment_btn02);
+					.setBackgroundResource(R.drawable.btn_bg_circle_dark);
 		} else if (deal_status.equals("3")) {
 			viewHolder.zhuangtai_lan.setText("已流标");
 			viewHolder.zhuangtai_lan
-					.setBackgroundResource(R.drawable.investment_btn02);
+					.setBackgroundResource(R.drawable.btn_bg_circle_dark);
 		} else if (deal_status.equals("1")
 				&& Integer.valueOf(remain_time).intValue() <= 0) {
 			viewHolder.zhuangtai_lan.setText("已过期");
 			viewHolder.zhuangtai_lan
-					.setBackgroundResource(R.drawable.investment_btn02);
+					.setBackgroundResource(R.drawable.btn_bg_circle_dark);
 		}
 
 		int progress_point = (int) data.get(position).get("progress_point");

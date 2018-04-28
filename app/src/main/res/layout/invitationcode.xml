@@ -86,12 +86,14 @@
                         android:textSize="@dimen/dimen_18" />
                 </LinearLayout>
 
-                <ImageView
-                    android:layout_width="wrap_content"
+                <TextView
+                    style="@style/BtnTheme"
+                    android:text="邀请好友"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="30dip"
                     android:layout_marginTop="15dip"
-                    android:src="@drawable/yaoqinghaoyou1" />
+                    />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

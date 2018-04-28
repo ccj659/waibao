@@ -1,11 +1,5 @@
 package com.example.jinglinzichan.adapter;
 
-import java.util.List;
-
-import com.example.jinglinzichan.R;
-import com.example.jinglinzichan.bean.HomepageBean;
-import com.example.jinglinzichan.view.ViewHolder;
-
 import android.annotation.SuppressLint;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,6 +7,12 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+
+import com.example.jinglinzichan.R;
+import com.example.jinglinzichan.bean.HomepageBean;
+import com.example.jinglinzichan.view.ViewHolder;
+
+import java.util.List;
 
 @SuppressLint("InflateParams")
 public class HomePageAdapter extends BaseAdapter {
@@ -131,27 +131,27 @@ public class HomePageAdapter extends BaseAdapter {
 
 		if (item.getDeal_status().equals("0")) {
 			zhuangtai_lan.setText("申请中");
-			zhuangtai_lan.setBackgroundResource(R.drawable.investment_btn01);
+			zhuangtai_lan.setBackgroundResource(R.drawable.btn_bg_circle);
 		} else if (item.getDeal_status().equals("5")) {
 			zhuangtai_lan.setText("已还清");
-			zhuangtai_lan.setBackgroundResource(R.drawable.investment_btn02);
+			zhuangtai_lan.setBackgroundResource(R.drawable.btn_bg_circle_dark);
 		} else if (item.getDeal_status().equals("4")) {
 			zhuangtai_lan.setText("还款中");
-			zhuangtai_lan.setBackgroundResource(R.drawable.investment_btn02);
+			zhuangtai_lan.setBackgroundResource(R.drawable.btn_bg_circle_dark);
 		} else if (item.getDeal_status().equals("1")
 				&& Integer.valueOf(item.getRemain_time()).intValue() > 0) {
 			zhuangtai_lan.setText("投资");
-			zhuangtai_lan.setBackgroundResource(R.drawable.investment_btn01);
+			zhuangtai_lan.setBackgroundResource(R.drawable.btn_bg_circle);
 		} else if (item.getDeal_status().equals("2")) {
 			zhuangtai_lan.setText("已满标");
-			zhuangtai_lan.setBackgroundResource(R.drawable.investment_btn02);
+			zhuangtai_lan.setBackgroundResource(R.drawable.btn_bg_circle_dark);
 		} else if (item.getDeal_status().equals("3")) {
 			zhuangtai_lan.setText("已流标");
-			zhuangtai_lan.setBackgroundResource(R.drawable.investment_btn02);
+			zhuangtai_lan.setBackgroundResource(R.drawable.btn_bg_circle_dark);
 		} else if (item.getDeal_status().equals("1")
 				&& Integer.valueOf(item.getRemain_time()).intValue() <= 0) {
 			zhuangtai_lan.setText("已过期");
-			zhuangtai_lan.setBackgroundResource(R.drawable.investment_btn02);
+			zhuangtai_lan.setBackgroundResource(R.drawable.btn_bg_circle_dark);
 		}
 		progressbar_updown.setProgress(item.getProgress_point());
 
