@@ -27,7 +27,7 @@
                     android:layout_height="25dip"
                     android:layout_marginLeft="10dip"
                     android:layout_marginRight="10dip"
-                    android:src="@drawable/nav_btn_back_def" />
+                    android:src="@drawable/back" />
             </LinearLayout>
 
             <LinearLayout
@@ -59,13 +59,15 @@
                 android:orientation="horizontal"
                 android:visibility="invisible" >
 
-                <ImageView
+                <TextView
                     android:id="@+id/sousuo_imgage"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dip"
                     android:layout_marginRight="10dip"
-                    android:src="@drawable/zhanghuxinxi_queren" />
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/dimen_20"
+                    android:text="确定" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
@@ -446,11 +448,13 @@
                         android:textColor="@color/color_3"
                         android:textSize="@dimen/dimen_16" />
 
-                    <ImageView
+                    <TextView
+                        style="@style/BtnNormalTheme"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="20dip"
-                        android:src="@drawable/yaoqinghaoyou" />
+                        android:text="邀请好友"
+                        />
                 </LinearLayout>
 
                 <View

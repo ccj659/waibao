@@ -1,7 +1,13 @@
 package com.example.jinglinzichan.activity;
 
-import org.json.JSONException;
-import org.json.JSONObject;
+import android.content.Intent;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.example.jinglinzichan.BaseActivity;
 import com.example.jinglinzichan.R;
@@ -10,28 +16,21 @@ import com.example.jinglinzichan.utils.PushData;
 import com.lidroid.xutils.BusinessResponse;
 import com.lidroid.xutils.http.RequestParams;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.TextView;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 //确认投标
 public class ConfirmTender extends BaseActivity {
 
 	private LinearLayout return_key;
 	private TextView title;
-	private ImageView woyaochongzhi, querentoubiao;
+	private TextView woyaochongzhi, querentoubiao;
 	private String money_encrypt, need_money;
 	private TextView queren_mingcheng, queren_jiekuan, queren_jindu,
 			queren_nianlilv, queren_qixian, queren_fangshi, queren_ketou,
 			queren_keyong, fuwuxieyi;
 	private EditText queren_shurujine;
-	private ImageView quantou;
+	private TextView quantou;
 	private String id;
 	private EditText qingshuruyaoqingma;
 
@@ -74,7 +73,7 @@ public class ConfirmTender extends BaseActivity {
 		// 投标金额
 		queren_shurujine = (EditText) findViewById(R.id.queren_shurujine);
 		// 我要充值
-		woyaochongzhi = (ImageView) findViewById(R.id.woyaochongzhi);
+		woyaochongzhi = (TextView) findViewById(R.id.woyaochongzhi);
 		woyaochongzhi.setOnClickListener(new OnClickListener() {
 
 			@Override
@@ -83,7 +82,7 @@ public class ConfirmTender extends BaseActivity {
 			}
 		});
 		// 全投
-		quantou = (ImageView) findViewById(R.id.quantou);
+		quantou = (TextView) findViewById(R.id.quantou);
 		quantou.setOnClickListener(new OnClickListener() {
 
 			@Override
@@ -92,7 +91,7 @@ public class ConfirmTender extends BaseActivity {
 			}
 		});
 		// 确认投标
-		querentoubiao = (ImageView) findViewById(R.id.querentoubiao);
+		querentoubiao = (TextView) findViewById(R.id.querentoubiao);
 		querentoubiao.setOnClickListener(new OnClickListener() {
 
 			@Override

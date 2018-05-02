@@ -1,11 +1,5 @@
 package com.example.jinglinzichan.adapter;
 
-import java.util.List;
-
-import com.example.jinglinzichan.R;
-import com.example.jinglinzichan.bean.FundDetailsBean;
-import com.example.jinglinzichan.view.ViewHolder;
-
 import android.annotation.SuppressLint;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,6 +7,12 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.jinglinzichan.R;
+import com.example.jinglinzichan.bean.FundDetailsBean;
+import com.example.jinglinzichan.view.ViewHolder;
+
+import java.util.List;
 
 @SuppressLint("InflateParams")
 public class FundDetailsAdapter extends BaseAdapter {
@@ -58,51 +58,51 @@ public class FundDetailsAdapter extends BaseAdapter {
 
 		ImageView tupian = ViewHolder.get(convertView, R.id.tupian);
 		if (item.getType().equals("2")) {
-			tupian.setImageResource(R.drawable.zijinmingxi3);
+			tupian.setImageResource(R.drawable.zj_3);
 			money.setTextColor(0xffff750f);
 			money.setText(item.getMoney());
 		} else if (item.getType().equals("3")) {
-			tupian.setImageResource(R.drawable.zijinmingxi1);
+			tupian.setImageResource(R.drawable.zj_1);
 			money.setTextColor(0xff74b600);
 			money.setText(item.getMoney());
 		} else if (item.getType().equals("4")) {
-			tupian.setImageResource(R.drawable.zijinmingxi1);
+			tupian.setImageResource(R.drawable.zj_1);
 			money.setTextColor(0xff74b600);
 			money.setText(item.getMoney());
 		} else if (item.getType().equals("5")) {
-			tupian.setImageResource(R.drawable.zijinmingxi2);
+			tupian.setImageResource(R.drawable.zj_2);
 			money.setTextColor(0xff74b600);
 			money.setText(item.getMoney());
 		} else if (item.getType().equals("6")) {
-			tupian.setImageResource(R.drawable.zijinmingxi2);
+			tupian.setImageResource(R.drawable.zj_2);
 			money.setTextColor(0xff74b600);
 			money.setText(item.getMoney());
 		} else if (item.getType().equals("9")) {
-			tupian.setImageResource(R.drawable.zijinmingxi2);
+			tupian.setImageResource(R.drawable.zj_2);
 			money.setTextColor(0xff74b600);
 			money.setText(item.getMoney());
 		} else if (item.getType().equals("10")) {
-			tupian.setImageResource(R.drawable.zijinmingxi2);
+			tupian.setImageResource(R.drawable.zj_2);
 			money.setTextColor(0xff74b600);
 			money.setText(item.getMoney());
 		} else if (item.getType().equals("14")) {
-			tupian.setImageResource(R.drawable.zijinmingxi2);
+			tupian.setImageResource(R.drawable.zj_2);
 			money.setTextColor(0xff74b600);
 			money.setText(item.getMoney());
 		} else if (item.getType().equals("16")) {
-			tupian.setImageResource(R.drawable.zijinmingxi2);
+			tupian.setImageResource(R.drawable.zj_2);
 			money.setTextColor(0xff74b600);
 			money.setText(item.getMoney());
 		} else if (item.getType().equals("19")) {
-			tupian.setImageResource(R.drawable.zijinmingxi2);
+			tupian.setImageResource(R.drawable.zj_2);
 			money.setTextColor(0xff74b600);
 			money.setText(item.getMoney());
 		} else if (item.getType().equals("22")) {
-			tupian.setImageResource(R.drawable.zijinmingxi2);
+			tupian.setImageResource(R.drawable.zj_2);
 			money.setTextColor(0xff74b600);
 			money.setText(item.getMoney());
 		} else if (item.getType().equals("23")) {
-			tupian.setImageResource(R.drawable.zijinmingxi2);
+			tupian.setImageResource(R.drawable.zj_2);
 			money.setTextColor(0xff74b600);
 			money.setText(item.getMoney());
 		}

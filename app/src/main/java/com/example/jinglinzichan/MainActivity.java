@@ -1,9 +1,5 @@
 package com.example.jinglinzichan;
 
-import com.example.jinglinzichan.fragment.HomePageFragment;
-import com.example.jinglinzichan.fragment.InvestmentFragments;
-import com.example.jinglinzichan.fragment.PersonalCenterFragment;
-
 import android.app.Activity;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -21,6 +17,10 @@ import android.view.Window;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.jinglinzichan.fragment.HomePageFragment;
+import com.example.jinglinzichan.fragment.InvestmentFragments;
+import com.example.jinglinzichan.fragment.PersonalCenterFragment;
 
 /**
  * 项目的主Activity，所有的Fragment都嵌入在这里。
@@ -162,8 +162,8 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
 		switch (index) {
 		case 0:
 			// 当点击了首页tab时，改变控件的图片和文字颜色
-			homePageImage.setImageResource(R.drawable.home_tab_icon1_pre);
-			homePageText.setTextColor(0xff3faaf5);
+			homePageImage.setImageResource(R.drawable.home_tab_down);
+			homePageText.setTextColor(getResources().getColor(R.color.red));
 			if (homePageFragment == null) {
 				// 如果MessageFragment为空，则创建一个并添加到界面上
 				homePageFragment = new HomePageFragment();
@@ -176,8 +176,8 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
 			break;
 		case 1:
 			// 当点击了借款投资tab时，改变控件的图片和文字颜色
-			loaninvestmentImage.setImageResource(R.drawable.home_tab_icon2_pre);
-			loaninvestmentText.setTextColor(0xff3faaf5);
+			loaninvestmentImage.setImageResource(R.drawable.home_tab_2_down);
+			loaninvestmentText.setTextColor(getResources().getColor(R.color.red));
 			if (loaninvestmentFragment == null) {
 				// 如果ContactsFragment为空，则创建一个并添加到界面上
 				loaninvestmentFragment = new InvestmentFragments();
@@ -190,8 +190,8 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
 			break;
 		case 3:
 			// 当点击了个人中心tab时，改变控件的图片和文字颜色
-			personalcenterImage.setImageResource(R.drawable.home_tab_icon3_pre);
-			personalcenterText.setTextColor(0xff3faaf5);
+			personalcenterImage.setImageResource(R.drawable.home_tab_3_down);
+			personalcenterText.setTextColor(getResources().getColor(R.color.red));
 			if (personalcenterFragment == null) {
 				// 如果PersonalCenterFragment为空，则创建一个并添加到界面上
 				personalcenterFragment = new PersonalCenterFragment();
@@ -212,11 +212,11 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
 	 * 清除掉所有的选中状态。
 	 */
 	public void clearSelection() {
-		homePageImage.setImageResource(R.drawable.home_tab_icon1);
+		homePageImage.setImageResource(R.drawable.home_tab_1_de);
 		homePageText.setTextColor(0xffbcccd4);
-		loaninvestmentImage.setImageResource(R.drawable.home_tab_icon2);
+		loaninvestmentImage.setImageResource(R.drawable.home_tab_2_d);
 		loaninvestmentText.setTextColor(0xffbcccd4);
-		personalcenterImage.setImageResource(R.drawable.home_tab_icon3);
+		personalcenterImage.setImageResource(R.drawable.home_tab_3_de);
 		personalcenterText.setTextColor(0xffbcccd4);
 	}
 
