@@ -82,7 +82,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dip"
-                android:text="我的投标"
+                android:text="投标记录"
                 android:textColor="@color/color_7"
                 android:textSize="@dimen/dimen_15" />
         </LinearLayout>
@@ -142,11 +142,46 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dip"
-                android:text="资金明细"
+                android:text="资金往来"
                 android:textColor="@color/color_7"
                 android:textSize="@dimen/dimen_15" />
         </LinearLayout>
 
+
+        <LinearLayout
+            android:id="@+id/wodeyaoqing"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="1dip"
+            android:background="@color/color_6"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_marginBottom="7dip"
+                android:layout_marginTop="20dip"
+                android:src="@drawable/user_function_icon06" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:text="我的邀请"
+                android:textColor="@color/color_7"
+                android:textSize="@dimen/dimen_15" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
         <LinearLayout
             android:id="@+id/zhanghuxinxi"
             android:layout_width="match_parent"
@@ -163,7 +198,7 @@
                 android:layout_height="30dip"
                 android:layout_marginBottom="7dip"
                 android:layout_marginTop="20dip"
-                android:src="@drawable/user_function_icon06" />
+                android:src="@drawable/user_function_icon07" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -173,38 +208,7 @@
                 android:textColor="@color/color_7"
                 android:textSize="@dimen/dimen_15" />
         </LinearLayout>
-    </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal" >
-
-        <LinearLayout
-            android:id="@+id/openanaccount"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/color_6"
-            android:gravity="center"
-            android:orientation="vertical" >
-
-            <ImageView
-                android:layout_width="30dip"
-                android:layout_height="30dip"
-                android:layout_marginBottom="7dip"
-                android:layout_marginTop="20dip"
-                android:src="@drawable/user_function_icon07" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="20dip"
-                android:text="开户"
-                android:textColor="@color/color_7"
-                android:textSize="@dimen/dimen_15" />
-        </LinearLayout>
 
         <LinearLayout
             android:id="@+id/wodeguanzhu"
@@ -228,7 +232,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dip"
-                android:text="平台公告"
+                android:text="最新公告"
                 android:textColor="@color/color_7"
                 android:textSize="@dimen/dimen_15" />
         </LinearLayout>
@@ -253,7 +257,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dip"
-                android:text="密码管理"
+                android:text="密码修改"
                 android:textColor="@color/color_7"
                 android:textSize="@dimen/dimen_15" />
         </LinearLayout>
@@ -265,31 +269,7 @@
         android:gravity="center"
         android:orientation="horizontal" >
 
-        <LinearLayout
-            android:id="@+id/wodeyaoqing"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:layout_marginTop="1dip"
-            android:background="@color/color_6"
-            android:gravity="center"
-            android:orientation="vertical" >
 
-            <ImageView
-                android:layout_width="30dip"
-                android:layout_height="30dip"
-                android:layout_marginBottom="7dip"
-                android:layout_marginTop="20dip"
-                android:src="@drawable/shezhizhongxin" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="20dip"
-                android:text="我的邀请"
-                android:textColor="@color/color_7"
-                android:textSize="@dimen/dimen_15" />
-        </LinearLayout>
 
         <LinearLayout
             android:visibility="invisible"

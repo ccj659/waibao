@@ -1,26 +1,5 @@
 package com.example.jinglinzichan.fragment;
 
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import com.example.jinglinzichan.BaseFragment;
-import com.example.jinglinzichan.R;
-import com.example.jinglinzichan.activity.MyInvitation;
-import com.example.jinglinzichan.activity.Notice;
-import com.example.jinglinzichan.activity.OpenAnAccount;
-import com.example.jinglinzichan.activity.OptionBank;
-import com.example.jinglinzichan.activity.Recharge;
-import com.example.jinglinzichan.activity.Login;
-import com.example.jinglinzichan.activity.TouBiaoJiLu;
-import com.example.jinglinzichan.activity.MyBankCard;
-import com.example.jinglinzichan.activity.ModifyLoginPassword;
-import com.example.jinglinzichan.activity.FundDetails;
-import com.example.jinglinzichan.activity.ZhangHuXinXi;
-import com.example.jinglinzichan.utils.Constant;
-import com.example.jinglinzichan.utils.PushData;
-import com.lidroid.xutils.BusinessResponse;
-import com.lidroid.xutils.http.RequestParams;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -29,6 +8,26 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.example.jinglinzichan.BaseFragment;
+import com.example.jinglinzichan.R;
+import com.example.jinglinzichan.activity.FundDetails;
+import com.example.jinglinzichan.activity.Login;
+import com.example.jinglinzichan.activity.ModifyLoginPassword;
+import com.example.jinglinzichan.activity.MyBankCard;
+import com.example.jinglinzichan.activity.MyInvitation;
+import com.example.jinglinzichan.activity.Notice;
+import com.example.jinglinzichan.activity.OptionBank;
+import com.example.jinglinzichan.activity.Recharge;
+import com.example.jinglinzichan.activity.TouBiaoJiLu;
+import com.example.jinglinzichan.activity.ZhangHuXinXi1;
+import com.example.jinglinzichan.utils.Constant;
+import com.example.jinglinzichan.utils.PushData;
+import com.lidroid.xutils.BusinessResponse;
+import com.lidroid.xutils.http.RequestParams;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 //个人中心
 @SuppressLint("InflateParams")
@@ -126,7 +125,7 @@ public class PersonalCenterFragment extends BaseFragment {
 
 			@Override
 			public void onClick(View v) {
-				startActivity(new Intent(getActivity(), ZhangHuXinXi.class));
+				startActivity(new Intent(getActivity(), ZhangHuXinXi1.class));
 			}
 		});
 		// 平台公告
@@ -148,15 +147,7 @@ public class PersonalCenterFragment extends BaseFragment {
 						ModifyLoginPassword.class));
 			}
 		});
-		// 开户
-		openanaccount = (LinearLayout) view.findViewById(R.id.openanaccount);
-		openanaccount.setOnClickListener(new OnClickListener() {
 
-			@Override
-			public void onClick(View v) {
-				startActivity(new Intent(getActivity(), OpenAnAccount.class));
-			}
-		});
 		// 我的邀请
 		wodeyaoqing = (LinearLayout) view.findViewById(R.id.wodeyaoqing);
 		wodeyaoqing.setOnClickListener(new OnClickListener() {
