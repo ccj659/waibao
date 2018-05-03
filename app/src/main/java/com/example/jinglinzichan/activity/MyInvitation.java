@@ -1,9 +1,5 @@
 package com.example.jinglinzichan.activity;
 
-import com.example.jinglinzichan.BaseActivity;
-import com.example.jinglinzichan.R;
-import com.example.jinglinzichan.adapter.AuctionPagerAdapter;
-
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
@@ -12,6 +8,10 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.example.jinglinzichan.BaseActivity;
+import com.example.jinglinzichan.R;
+import com.example.jinglinzichan.adapter.AuctionPagerAdapter;
 
 //ÎÒµÄÑûÇë
 @SuppressLint("SetJavaScriptEnabled")
@@ -80,13 +80,13 @@ public class MyInvitation extends BaseActivity {
 			public void onPageSelected(int position) {
 				switch (position) {
 				case 0:
-					yaoqingma_text.setTextColor(0xff50cfff);
+					yaoqingma_text.setTextColor(getResources().getColor(R.color.red));
 					xiangqing_text.setTextColor(0xff8d8d8d);
 					yaoqingma_view.setVisibility(View.VISIBLE);
 					xiangqing_view.setVisibility(View.INVISIBLE);
 					break;
 				case 1:
-					xiangqing_text.setTextColor(0xff50cfff);
+					xiangqing_text.setTextColor(getResources().getColor(R.color.red));
 					yaoqingma_text.setTextColor(0xff8d8d8d);
 					xiangqing_view.setVisibility(View.VISIBLE);
 					yaoqingma_view.setVisibility(View.INVISIBLE);

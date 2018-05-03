@@ -142,7 +142,9 @@ public class ZhangHuXinXi1 extends FragmentActivity implements OnClickListener{
 				setSelect(1);
 
 				break;
-
+			case R.id.return_key:
+					finish();
+				break;
 			default:
 				break;
 		}

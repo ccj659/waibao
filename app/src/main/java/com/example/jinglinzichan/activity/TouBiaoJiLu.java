@@ -1,12 +1,14 @@
 package com.example.jinglinzichan.activity;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import org.json.JSONException;
-import org.json.JSONObject;
+import android.content.Intent;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.example.jinglinzichan.BaseActivity;
 import com.example.jinglinzichan.R;
@@ -18,15 +20,13 @@ import com.example.jinglinzichan.view.PullDownView.OnPullDownListener;
 import com.lidroid.xutils.BusinessResponse;
 import com.lidroid.xutils.http.RequestParams;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.AdapterView;
-import android.widget.LinearLayout;
-import android.widget.TextView;
-import android.widget.AdapterView.OnItemClickListener;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 //我的投标
 public class TouBiaoJiLu extends BaseActivity {
@@ -74,7 +74,7 @@ public class TouBiaoJiLu extends BaseActivity {
 			@Override
 			public void onClick(View v) {
 				mode = "";
-				quanbu_text.setTextColor(0xff50cfff);
+				quanbu_text.setTextColor(getResources().getColor(R.color.red));
 				huankuan_text.setTextColor(0xff8d8d8d);
 				yihuanqing_text.setTextColor(0xff8d8d8d);
 				quanbu_view.setVisibility(View.VISIBLE);
@@ -95,7 +95,7 @@ public class TouBiaoJiLu extends BaseActivity {
 			public void onClick(View v) {
 				mode = "ing";
 				quanbu_text.setTextColor(0xff8d8d8d);
-				huankuan_text.setTextColor(0xff50cfff);
+				huankuan_text.setTextColor(getResources().getColor(R.color.red));
 				yihuanqing_text.setTextColor(0xff8d8d8d);
 				quanbu_view.setVisibility(View.INVISIBLE);
 				huankuan_view.setVisibility(View.VISIBLE);
@@ -116,7 +116,7 @@ public class TouBiaoJiLu extends BaseActivity {
 				mode = "over";
 				quanbu_text.setTextColor(0xff8d8d8d);
 				huankuan_text.setTextColor(0xff8d8d8d);
-				yihuanqing_text.setTextColor(0xff50cfff);
+				yihuanqing_text.setTextColor(getResources().getColor(R.color.red));
 				quanbu_view.setVisibility(View.INVISIBLE);
 				huankuan_view.setVisibility(View.INVISIBLE);
 				yihuanqing_view.setVisibility(View.VISIBLE);
